@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2rem;
+}
+.header-container .nav-links ul {
+  display: flex;
+  gap: 0 20px;
+}
+.header-container .nav-links ul li a {
+  padding-bottom: 0.5rem;
+}
+.header-container .nav-links ul li a:hover {
+  border-bottom: 2px solid #CB9C57;
+}
+.header-container .menu {
+  display: none;
+}
+
+.create {
+  background-image: url(../images/section1-bg-picture.avif);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.create-container {
+  padding: 0 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.create-container-top {
+  height: 50vh;
+  width: 100%;
+}
+.create-container-bottom {
+  padding: 3rem 0;
+}
+.create-container-bottom .h1 {
+  font-size: 45px;
+  color: #fff;
+  font-family: "Unna", serif;
+  letter-spacing: 1px;
+  padding: 1rem 0;
+}
+.create-container-bottom h3 {
+  font-size: large;
+  color: #fff;
+  padding: 1rem 0;
+  font-family: "Open Sans", sans-serif;
+}
+.create-container-bottom button {
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  font-size: medium;
+  border: none;
+}
+.about-us-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 7rem auto;
+  padding: 0 2rem;
+}
+.about-us-container-left {
+  max-width: 340px;
+}
+.about-us-container-left img {
+  width: 100%;
+}
+.about-us-container-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px 0;
+  max-width: 600px;
+  max-height: 433px;
+}
+.about-us-container-right h2 {
+  font-family: "Unna", serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 40px;
+}
+.about-us-container-right p {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 15px;
+}
+.about-us-container-right button {
+  width: 150px;
+  padding: 1rem 2rem;
+  font-size: medium;
+  border: none;
+}
+.about-us-container-right img {
+  max-width: 100%;
+}
+
+.what-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.what-container h2 {
+  font-family: "Unna", serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+}
+.what-container p {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  padding: 3rem 0;
+}
+.what-container .images-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.what-container .images-row img {
+  width: 350px;
+  height: 100%;
+}
+.what-container button {
+  width: 280px;
+  margin: 4rem auto;
+  padding: 1rem 2rem;
+  font-size: medium;
+  border: none;
+}
+.design {
+  background-image: url(../images/design.webp);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.design-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+.design-container-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px 0;
+}
+.design-container-left p {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+}
+.design-container-left h2 {
+  font-family: "Unna", serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 40px;
+  color: #fff;
+}
+.design-container-right {
+  max-width: 350px;
+}
+.design-container-right p {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+.footer-container-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px 0;
+}
+.footer-container-left .logo h2 {
+  font-family: "Unna", serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 40px;
+}
+.footer-container-left ul li {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 15px;
+}
+.footer-container-left .social img {
+  width: 20px;
+}
+.footer-container-right p {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #CB9C57;
+  margin: 0.8rem 0;
+}
+.footer-container-right input {
+  width: 500px;
+  padding: 0.9rem 2rem;
+  border: none;
+  background-color: #DDDDDD;
+}
+.footer-container-right button {
+  margin: 2rem 0;
+  width: 280px;
+  padding: 1rem 2rem;
+  font-size: medium;
+  border: none;
+}
+@media only screen and (max-width: 991px) {
+  .header-container {
+    padding: 1.5rem 2rem;
+  }
+  .header-container nav {
+    display: none;
+  }
+  .header-container .menu {
+    display: block;
+  }
+  .create-container {
+    padding: 0 2rem;
+  }
+  .about-us-container {
+    max-width: 900px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 30px 0;
+  }
+  .about-us-container-left {
+    margin: 0 auto;
+  }
+  .about-us-container-right {
+    margin: 0 auto;
+  }
+  .what-container {
+    padding: 0 2rem;
+  }
+  .what-container .images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+  }
+  .what-container .images-row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    margin: 0 auto;
+  }
+  .footer-container-right input {
+    width: 300px;
+  }
+}
+.header-container .nav-links ul li a {
+  color: #CB9C57;
+}
+
+.create-container-bottom button, .about-us-container-right button, .what-container button, .footer-container-right button {
+  color: #fff;
+}
+
+.create-container-bottom button, .about-us-container-right button, .what-container button, .footer-container-right button {
+  background-color: #CB9C57;
+}
+
+.create-container-bottom button:hover, .about-us-container-right button:hover, .what-container button:hover, .footer-container-right button:hover {
+  background-color: #826C49;
+}/*# sourceMappingURL=style.css.map */
